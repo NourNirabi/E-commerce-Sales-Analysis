@@ -15,7 +15,7 @@ This project analyzes e-commerce sales data using **Python**, **Excel**, and **P
 ---
 
 ## 🛠️ Tech Stack  
-- **Programming Languages:** Python, SQL  
+- **Programming Languages:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Data Visualization:** Excel, Power BI  
 - **Version Control:** Git, GitHub  
@@ -23,6 +23,7 @@ This project analyzes e-commerce sales data using **Python**, **Excel**, and **P
 ---
 
 ## 📂 Project Structure  
+
 E-commerce-Sales-Analysis/
 ├── data/
 │ └── sales_data.csv # Raw sales data
@@ -52,53 +53,53 @@ E-commerce-Sales-Analysis/
    cd E-commerce-Sales-Analysis
     ```
 
- 2. **Install dependencies:**  
- ```bash
-  pip install pandas numpy matplotlib seaborn
- ```
+2. **Install dependencies:**  
+ 
+    ```bash
+     pip install pandas numpy matplotlib seaborn
+
+    ```
 3. **Run data cleaning script:**  
-```bash
-python scripts/data_cleaning.py
-```
+   ```bash
+   python scripts/data_cleaning.py
+   ```
 4. **Open the Power BI dashboard:**
-Launch Power BI Desktop
-Open sales_dashboard.pbix from the reports/ folder
+   -Launch Power BI Desktop
+   -Open sales_dashboard.pbix from the reports/ folder
 
 ## 📈 Data Analysis & Visualizations
-Sales by Product Line
-Insight: The most sold product category is Classic Cars, followed by Vintage Cars.
+   **Sales by Product Line**
+      -Insight: The most sold product category is Classic Cars, followed by Vintage Cars.
+      -Visualization: Bar Chart
 
-Visualization: Bar Chart
+   **Monthly Sales Trend**
+      -Insight: Sales peak during Q4 due to holiday seasons.
+      -Visualization: Line Chart
 
-Monthly Sales Trend
-Insight: Sales peak during Q4 due to holiday seasons.
-
-Visualization: Line Chart
-
-Top 5 Countries by Sales
-Insight: The highest sales are observed in the USA, followed by Germany and France.
-
-Visualization: Map Chart
+   **Top 5 Countries by Sales**
+      -Insight: The highest sales are observed in the USA, followed by Germany and France.
+      -Visualization: Map Chart
 
 ## 💡 Key Insights
-Product Performance: Classic Cars are the most popular, making up 39% of total sales.
 
-Seasonal Trends: Sales increase significantly during the holiday season (Q4).
+   1. Product Performance: Classic Cars are the most popular, making up 39% of total sales.
 
-Regional Distribution: North America and Europe are the leading markets.
+   2. Seasonal Trends: Sales increase significantly during the holiday season (Q4).
+
+   3.Regional Distribution: North America and Europe are the leading markets.
 
 ## 📝 Future Enhancements
 
-Implement automated data cleaning scripts for real-time updates.
+   -Implement automated data cleaning scripts for real-time updates.
 
-Add prediction models to forecast sales for the next quarter.
+   -Add prediction models to forecast sales for the next quarter.
 
-Integrate with web scraping tools to update sales data from online platforms.
+   -Integrate with web scraping tools to update sales data from online platforms.
 
 ## 🤝 Contributing
-Feel free to open issues and submit pull requests. For major changes, please open a discussion first.
+   Feel free to open issues and submit pull requests. For major changes, please open a discussion first.
 
 ## 📧 Contact
 
-Email: nournirabi@gmail.com
-
+   Email: nournirabi@gmail.com
+---
