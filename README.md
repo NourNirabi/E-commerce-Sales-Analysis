@@ -23,7 +23,7 @@ This project analyzes e-commerce sales data using **Python**, **Excel**, and **P
 ---
 
 ## 📂 Project Structure  
-
+```bash
 E-commerce-Sales-Analysis/
 ├── data/
 │ └── sales_data.csv # Raw sales data
@@ -36,6 +36,7 @@ E-commerce-Sales-Analysis/
 ├── README.md # Project documentation
 └── .gitignore # Excluded files
 
+```
 
 ---
 
@@ -64,21 +65,21 @@ E-commerce-Sales-Analysis/
    python scripts/data_cleaning.py
    ```
 4. **Open the Power BI dashboard:**
-   -Launch Power BI Desktop
-   -Open sales_dashboard.pbix from the reports/ folder
+   - Launch Power BI Desktop
+   - Open sales_dashboard.pbix from the reports/ folder
 
 ## 📈 Data Analysis & Visualizations
    **Sales by Product Line**
-      -Insight: The most sold product category is Classic Cars, followed by Vintage Cars.
-      -Visualization: Bar Chart
+   - Insight: The most sold product category is Classic Cars, followed by Vintage Cars.
+   - Visualization: Bar Chart
 
    **Monthly Sales Trend**
-      -Insight: Sales peak during Q4 due to holiday seasons.
-      -Visualization: Line Chart
+   - Insight: Sales peak during Q4 due to holiday seasons.
+   - Visualization: Line Chart
 
    **Top 5 Countries by Sales**
-      -Insight: The highest sales are observed in the USA, followed by Germany and France.
-      -Visualization: Map Chart
+   - Insight: The highest sales are observed in the USA, followed by Germany and France.
+   - Visualization: Map Chart
 
 ## 💡 Key Insights
 
@@ -90,11 +91,11 @@ E-commerce-Sales-Analysis/
 
 ## 📝 Future Enhancements
 
-   -Implement automated data cleaning scripts for real-time updates.
-
-   -Add prediction models to forecast sales for the next quarter.
-
-   -Integrate with web scraping tools to update sales data from online platforms.
+   - Implement automated data cleaning scripts for real-time updates.
+   
+   - Add prediction models to forecast sales for the next quarter.
+   
+   - Integrate with web scraping tools to update sales data from online platforms.
 
 ## 🤝 Contributing
 
