@@ -1,7 +1,9 @@
 # E-commerce Sales Analysis
 
 ## 📊 Project Overview  
+
 This project analyzes e-commerce sales data using **Python**, **Excel**, and **Power BI**. The main objective is to gain insights into sales trends, customer behavior, and product performance through data visualization and statistical analysis.
+
 ![Dashboard Overview](images/excel_dashboard.png)
 
 
