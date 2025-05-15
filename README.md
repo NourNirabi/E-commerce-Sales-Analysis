@@ -2,6 +2,8 @@
 
 ## 📊 Project Overview  
 This project analyzes e-commerce sales data using **Python**, **Excel**, and **Power BI**. The main objective is to gain insights into sales trends, customer behavior, and product performance through data visualization and statistical analysis.
+![Dashboard Overview](images/excel_dashboard.png)
+
 
 ---
 
@@ -32,7 +34,7 @@ E-commerce-Sales-Analysis/
 ├── reports/
 │ └── sales_dashboard.pbix # Power BI dashboard
 ├── images/
-│ └── dashboard.png # Dashboard screenshot
+│ └── excel_dashboard.png # Dashboard screenshot
 ├── README.md # Project documentation
 └── .gitignore # Excluded files
 
@@ -62,7 +64,7 @@ E-commerce-Sales-Analysis/
     ```
 3. **Run data cleaning script:**  
    ```bash
-   python scripts/data_cleaning.py
+   python scripts/data_cleaning.ipynb
    ```
 4. **Open the Power BI dashboard:**
    - Launch Power BI Desktop
@@ -75,7 +77,7 @@ E-commerce-Sales-Analysis/
 
    **Monthly Sales Trend**
    - Insight: Sales peak during Q4 due to holiday seasons.
-   - Visualization: Line Chart
+   - Visualization: Pie Chart
 
    **Top 5 Countries by Sales**
    - Insight: The highest sales are observed in the USA, followed by Germany and France.
@@ -86,16 +88,8 @@ E-commerce-Sales-Analysis/
    1. Product Performance: Classic Cars are the most popular, making up 39% of total sales.
 
    2. Seasonal Trends: Sales increase significantly during the holiday season (Q4).
-
-   3.Regional Distribution: North America and Europe are the leading markets.
-
-## 📝 Future Enhancements
-
-   - Implement automated data cleaning scripts for real-time updates.
    
-   - Add prediction models to forecast sales for the next quarter.
-   
-   - Integrate with web scraping tools to update sales data from online platforms.
+   3. Regional Distribution: North America and Europe are the leading markets.
 
 ## 🤝 Contributing
 
